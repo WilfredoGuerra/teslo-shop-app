@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { ProductCard } from '@store-front/components/product-card/product-card';
 
 @Component({
   selector: 'app-home-page',
-  imports: [],
+  imports: [ProductCard],
   templateUrl: './home-page.html',
 })
 export class HomePage { }
